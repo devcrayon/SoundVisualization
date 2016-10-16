@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Main">
+      <UniqueIdentifier>{73740765-21ca-4f2f-99e6-1c3383e6ec9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr">
+      <UniqueIdentifier>{77e278b7-450a-44bb-896e-4723d45500ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.">
+      <UniqueIdentifier>{68a1ed26-c62e-471c-a773-9a64070809af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object">
+      <UniqueIdentifier>{7191c123-eac6-4159-ad3f-d9a8033dbf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Static">
+      <UniqueIdentifier>{c9fbf846-ecc0-49e0-9720-5d23d4d35446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundVisualization.h">
+      <Filter>01. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObj.h">
+      <Filter>00.</Filter>
+    </ClInclude>
+    <ClInclude Include="WAVReader.h">
+      <Filter>00.</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx9Device.h">
+      <Filter>02. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>01. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MySound.h">
+      <Filter>00.</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCamera.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObj.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSpreadIntoCricle.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>99. Static</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>01. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundRect.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterObj.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundVisualization.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObj.cpp">
+      <Filter>00.</Filter>
+    </ClCompile>
+    <ClCompile Include="WAVReader.cpp">
+      <Filter>00.</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx9Device.cpp">
+      <Filter>02. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MySound.cpp">
+      <Filter>00.</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCamera.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObj.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSpreadIntoCricle.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>99. Static</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>01. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundRect.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterObj.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SoundVisualization.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SoundVisualization.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

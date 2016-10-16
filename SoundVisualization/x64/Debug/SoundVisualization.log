@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  SoundVisualization.cpp
+  MySound.cpp
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(53): warning C4311: '형식 캐스팅': 'HWND'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(53): warning C4302: '형식 캐스팅': 'HWND'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(56): warning C4311: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(56): warning C4302: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(65): warning C4311: '형식 캐스팅': 'HWND'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(65): warning C4302: '형식 캐스팅': 'HWND'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(69): warning C4311: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(69): warning C4302: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(70): warning C4244: '=': 'DWORD_PTR'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(86): warning C4311: '형식 캐스팅': 'HWND'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(86): warning C4302: '형식 캐스팅': 'HWND'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(89): warning C4311: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(89): warning C4302: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(112): warning C4101: 'mciError' :참조되지 않은 지역 변수입니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(124): warning C4244: '=': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(126): warning C4311: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(126): warning C4302: '형식 캐스팅': 'LPVOID'에서 'DWORD'(으)로 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(127): warning C4311: '형식 캐스팅': 'MCI_PLAY_PARMS *'에서 'DWORD'(으)로 포인터가 잘립니다.
+c:\users\chjh9\desktop\sound\soundvisualization\soundvisualization\mysound.cpp(127): warning C4302: '형식 캐스팅': 'MCI_PLAY_PARMS *'에서 'DWORD'(으)로 잘립니다.
+  SoundVisualization.vcxproj -> C:\Users\chjh9\Desktop\Sound\SoundVisualization\SoundVisualization\../bin\SoundVisualization.exe
