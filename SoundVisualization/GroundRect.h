@@ -3,7 +3,7 @@
 class CGroundRect :
 	public CRenderObj
 {
-public:
+protected:
 	explicit CGroundRect();
 	explicit CGroundRect(const CGroundRect& rObj);
 	CGroundRect& operator = (const CGroundRect& rObj);
