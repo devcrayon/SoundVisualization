@@ -20,7 +20,7 @@ CMySound::CMySound(const CMySound & rSound)
 
 CMySound & CMySound::operator=(const CMySound & rSound)
 {
-	// TODO: ¿©±â¿¡ ¹ÝÈ¯ ±¸¹®À» »ðÀÔÇÕ´Ï´Ù.
+	// TODO: ì—¬ê¸°ì— ë°˜í™˜ êµ¬ë¬¸ì„ ì‚½ìž…í•©ë‹ˆë‹¤.
 	return *this;
 }
 
@@ -47,7 +47,7 @@ bool CMySound::SetFile(std::wstring wstrFilePath)
 	}
 	this->m_mciOpenParms.lpstrDeviceType = L"WaveAudio";
 
-	//WaveAudio ´ë½Å MPEGVideo¸¦ »ç¿ëÇÏ¸é mp3 Çü½ÄÀ» Àç»ýÇÕ´Ï´Ù.
+	//WaveAudio ëŒ€ì‹  MPEGVideoë¥¼ ì‚¬ìš©í•˜ë©´ mp3 í˜•ì‹ì„ ìž¬ìƒí•©ë‹ˆë‹¤.
 
 	MCIERROR mciError;
 	this->m_mciOpenParms.dwCallback = (DWORD)::g_hWnd;
@@ -140,7 +140,7 @@ void CMySound::Stop()
 
 void CMySound::Seek(FLOAT fTimePercent)
 {
-	this->m_mciSeekParams.dwTo = this->m_iLength * 0.5;
+	this->m_mciSeekParams.dwTo = this->m_iLength * fTimePercent;
 
 	mciSendCommand(this->m_iDeviceID, MCI_SEEK, MCI_TO | MCI_WAIT, (DWORD)(LPVOID)&this->m_mciSeekParams);
 	mciSendCommand(this->m_iDeviceID, MCI_PLAY, MCI_NOTIFY, (DWORD)&this->m_mciPlayParms);
