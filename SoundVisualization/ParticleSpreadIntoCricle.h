@@ -4,7 +4,7 @@
 class CParticleSpreadIntoCricle :
 	public CParticle
 {
-public:
+protected:
 	explicit CParticleSpreadIntoCricle();
 	explicit CParticleSpreadIntoCricle(const CParticleSpreadIntoCricle& rObj);
 	CParticleSpreadIntoCricle& operator = (const CParticleSpreadIntoCricle& rObj);
